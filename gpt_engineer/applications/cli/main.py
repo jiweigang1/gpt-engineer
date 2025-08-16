@@ -541,6 +541,7 @@ def main(
                     files_dict = files_dict_before
 
         else:
+            // 这里是生成整个项目
             files_dict = agent.init(prompt)
             # collect user feedback if user consents
             config = (code_gen_fn.__name__, execution_fn.__name__)
