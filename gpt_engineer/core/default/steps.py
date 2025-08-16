@@ -142,6 +142,7 @@ def gen_code(
     """
     preprompts = preprompts_holder.get_preprompts()
     messages = ai.start(
+        //这里可以打印出来原始语句
         setup_sys_prompt(preprompts), prompt.to_langchain_content(), step_name=curr_fn()
     )
     chat = messages[-1].content.strip()
