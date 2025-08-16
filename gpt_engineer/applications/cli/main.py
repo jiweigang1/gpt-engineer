@@ -267,7 +267,7 @@ def get_installed_packages():
 def format_installed_packages(packages):
     return "\n".join([f"{name}: {version}" for name, version in packages.items()])
 
-
+//使用 cli 工具，这里是主入口 
 @app.command(
     help="""
         GPT-engineer lets you:
