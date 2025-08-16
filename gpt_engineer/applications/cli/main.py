@@ -501,6 +501,7 @@ def main(
     memory.archive_logs()
 
     execution_env = DiskExecutionEnv()
+    // 创建 Agent
     agent = CliAgent.with_default_config(
         memory,
         execution_env,
