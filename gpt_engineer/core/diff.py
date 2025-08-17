@@ -1,4 +1,5 @@
 """
+校验修改部分的准确性，这里不是指代码的逻辑校验和代码的执行异常校验
 File Overview:
 
 This Python module is designed for processing and analyzing diffs in source code files. Diffs represent the changes between two versions of a file, which are crucial in version control systems for tracking file modifications. The module focuses on the detailed examination of these diffs, enabling users to understand, validate, and correct changes between file versions.
