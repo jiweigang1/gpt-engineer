@@ -515,7 +515,7 @@ def main(
     files = FileStore(project_path)
     if not no_execution:
         if improve_mode:
-            //对代码进行更新，files_dict_before 需要改进的文件
+            //对代码进行更新，files_dict_before 需要改进的文件，当前这里没有很好的文件过滤方式
             files_dict_before, is_linting = FileSelector(project_path).ask_for_files(
                 skip_file_selection=skip_file_selection
             )
